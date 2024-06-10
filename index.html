@@ -550,25 +550,29 @@
                 <textarea class="text-area"
                   type="text"
                   name="user-comment"
-                  placeholder="Text input"
                   id="user-comment"
-                ></textarea>
-                <svg>
-                  </use>
-                </svg>
+                  placeholder="Text input"></textarea>
             </div>
-            <div class="container-checkbox">
-              <input class="checkbox  visually-hidden checked" type="checkbox" name="user-privacy" id="user-privacy" value="true">
-              <label class="checkbox-text" for="user-privacy"><span class="checkbox-text-color">
-                <svg>
-                  <use href="./images/icons.svg#icon-check"></use>
+            <div class="container-checkbox check-input">
+              <input
+              class="check visually-hidden"
+              type="checkbox"
+              name="user-privacy"
+              id="user-privacy"
+              value="true"
+            />
+            <label for="user-privacy" class="privacy-label">
+              <span class="checkbox-span">
+                <svg class="check-icon" width="10" height="8">
+                  <use href="./images/icons.svg#icon-vector"></use>
                 </svg>
-              </span> I accept the terms and conditions of the
-              <a class="link-color" href="">Privacy Policy</a> 
-              <button class="btn-check">Send
-              </button> 
+              </span>
+              I accept the terms and conditions of the
+              <a class="span" href="" target="_blank" rel="">Privacy Policy</a>
             </label>
             </div>
+            <button class="btn-check">Send
+            </button> 
           </div>
         </form>
       </div>
